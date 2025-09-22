@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+
+.title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#word-input {
+    padding: 12px 20px;
+    width: 70%;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+    #word-input:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 10px rgba(52, 152, 219, 0.2);
+    }
+
+button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    button:hover {
+        background-color: #2980b9;
+        transform: scale(1.05);
+    }
+
+    button:active {
+        transform: scale(1);
+    }
+
+
+#word-of-the-day-btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #e67e22;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #word-of-the-day-btn:hover {
+        background-color: #d35400;
+    }
+
+
+.result {
+    margin-top: 25px;
+    text-align: left;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+    .result p {
+        font-size: 1rem;
+        color: #34495e;
+    }
+
+    .result h3 {
+        font-size: 1.2rem;
+        color: #2980b9;
+        margin-bottom: 10px;
+    }
+
+
+.container:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
