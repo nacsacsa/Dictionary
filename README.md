@@ -2,7 +2,7 @@
 
 ## Overview
 
-![App Screenshot](assets/screen.png)
+![App Screenshot](assets/screen.PNG)
 
 This is a Dictionary Web App that allows users to search for word definitions using the Wordnik API. Users can also check the Word of the Day with a single click. The app provides a clean and modern user interface with smooth transitions and a stylish design.
 
